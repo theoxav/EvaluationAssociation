@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap");
+.buttonEdit {
+  background-color: #a38770;
+  color: white;
+  border: white;
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 2px 2px 1px black;
+}
+
+.buttonEdit:hover {
+  background-color: #a38770 !important;
+  color: #d5c395;
+  border: #d5c395 solid;
+}
+
+.trait {
+  color: #5a4a3d;
+  border-color: #5a4a3d;
+  border: 2px solid #a38770;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0%;
+  background-color: white;
+}
+
+body p {
+  font-family: "Source Serif Pro", serif;
+}
+
+body h3 {
+  padding-top: 25px;
+  font-weight: bold;
+  color: #5a4a3d;
+  font-family: "Alfa Slab One", cursive !important;
+  text-shadow: rgba(185, 183, 183, 0.678) 1px 1px;
+}
+
+#NavbarMenu {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(27, 27, 26, 0.788) !important;
+}
+
+#NavbarMenu img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#NavbarMenu h1 {
+  font-family: "Alfa Slab One", cursive !important;
+  text-shadow: 1px 1px 3px black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.nav-item,
+a {
+  color: #d5c395 !important;
+  font-size: 15px;
+  margin-left: 10px;
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 2px 2px 1px black;
+}
+
+.nav-item a:hover,
+a a:hover {
+  color: #a38770 !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1.2s;
+}
+
+main img {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+main h2 {
+  color: #f8f7f7f6;
+  font-family: "Alfa Slab One", cursive !important;
+  text-shadow: 1px 1px 1px black;
+  margin-top: -35px;
+  font-size: 30px;
+  position: relative;
+}
+
+.card1 {
+  border-color: white;
+}
+
+.card1 p {
+  margin-top: 5px;
+}
+
+.card2 {
+  margin: 15px;
+  border-color: white;
+}
+
+.card2 h3 {
+  margin-top: 15px;
+}
+
+.card2 button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card3 {
+  margin: 15px;
+  border-color: #5a4a3d;
+  border: solid #5a4a3d;
+}
+
+.card3 h3 {
+  margin-top: 15px;
+}
+
+.card3 button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card4 {
+  margin: 15px;
+  border-color: white;
+}
+
+.card4 h3 {
+  margin-top: 15px;
+}
+
+.card4 button {
+  margin-top: 15px;
+}
+
+.carousel1 h5 {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+#contact {
+  background-image: url(../image/contact.png);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: black 1px 1px 1px;
+  text-decoration: underline;
+}
+
+.house {
+  color: #5a4a3d;
+  width: 40px;
+  height: 40px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.602);
+  background-color: #d5c395;
+  margin-top: 5px;
+}
+
+.house:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.boxform {
+  background-color: rgba(0, 0, 0, 0.288) !important;
+  width: 76%;
+  height: 80vh;
+  margin-top: 60px;
+  border-radius: 3px;
+}
+
+input {
+  margin: 3px;
+  background-color: rgba(255, 255, 255, 0.815);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  border: rgba(255, 255, 255, 0.952);
+}
+
+input:hover {
+  box-shadow: 4px 4px 4px #5a4a3d;
+  border: #d5c395;
+  background-color: white;
+  border: groove #d5c395 1px;
+}
+
+label {
+  color: #d5c395;
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: black 1px 1px 1px;
+}
+
+textarea {
+  margin: 3px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.815);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 8px;
+  border: rgba(255, 255, 255, 0.952);
+}
+
+textarea:hover {
+  box-shadow: 4px 4px 4px #5a4a3d;
+  border: #d5c395;
+  background-color: white;
+  border: groove #d5c395 1px;
+}
+
+.buttonEdit2 {
+  margin-top: 10px;
+  background-color: #5a4a3d;
+  color: white;
+  border: white;
+  text-shadow: 2px 2px 1px black;
+  width: 120px;
+  border-radius: 3px;
+  padding: 2px;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.buttonEdit2:hover {
+  box-shadow: 2px 2px 2px #d5c395;
+  color: #d5c395;
+}
+
+@media screen and (max-width: 398px) {
+  h1 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=fichier.css.map */
