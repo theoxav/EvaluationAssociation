@@ -14,7 +14,9 @@ $brownF: #5a4a3d;
   border: white;
   font-family: "Alfa Slab One", cursive;
   text-shadow: 2px 2px 1px black;
+  margin-top: 10px;
 
+    
   &:hover {
     background-color: $brown !important;
     color: $brownL;
@@ -223,7 +225,7 @@ label {
 }
 
 textarea {
-  margin: 3px;
+  margin: none;
   margin-top: 15px;
   background-color: rgba(255, 255, 255, 0.815);
   box-shadow: 1px 1px 1px black;
@@ -301,10 +303,52 @@ textarea {
 
 /////////mediaqueries////////////
 @media screen and (max-width: 398px) {
+  body {
+    font-size: small;
+  }
   h1 {
     display: none;
   }
+  h2 {
+    font-size: 20px !important;
+    color: $brownF !important;
+    padding-top: 38px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  textarea {
+    width: 20vh;
+    margin: 5px;
+  }
 }
 
+
 @media screen and (min-width: 1200px) {
+  h1{
+    font-size: 30px !important;
+  }
+  h2{
+    font-size: 40px !important;
+    margin-top: -40px !important;
+  }
+  h3 {
+    font-size: 35px;
+  }
+
+  h4{
+    margin-top: 20px;
+  }
+
+  p{
+    font-size: 20px;
+    margin-top: 10px !important;
+  }
+  .buttonEdit{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+  }
 }
