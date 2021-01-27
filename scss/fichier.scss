@@ -16,7 +16,6 @@ $brownF: #5a4a3d;
   text-shadow: 2px 2px 1px black;
   margin-top: 10px;
 
-    
   &:hover {
     background-color: $brown !important;
     color: $brownL;
@@ -101,51 +100,41 @@ main {
   }
 }
 
-///////// Cards 1///////////
-.card1 {
+///////// Cards ///////////
+
+.card {
   border-color: white;
+  h3 {
+    margin-top: 15px;
+  }
+  button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  p{
+    margin-top: 15px;
+  }
+}
+
+.card1 {
   p {
     margin-top: 5px;
   }
 }
 
-///////////// Cards 2 //////////////////////////
 .card2 {
   margin: 15px;
-  border-color: white;
-
-  h3 {
-    margin-top: 15px;
-  }
-
-  button {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
 }
 
-/////////// Cards 3////////////////////////////
 .card3 {
   margin: 15px;
   border-color: $brownF;
   border: solid $brownF;
-  h3 {
-    margin-top: 15px;
-  }
-
-  button {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
 }
 
 //////////// Cards 4 /////////////////////////////////
 .card4 {
   margin: 15px;
-  border-color: white;
-  h3 {
-    margin-top: 15px;
-  }
 
   button {
     margin-top: 15px;
@@ -179,9 +168,9 @@ main {
     text-shadow: black 1px 1px 1px;
     text-decoration: underline;
   }
-
-  //////////btn Accueil/////////////////////
 }
+
+///Btn Accueil Return///
 .house {
   color: #5a4a3d;
   width: 40px;
@@ -195,15 +184,16 @@ main {
     height: 50px;
   }
 }
-
+/// container-form///
 .boxform {
   background-color: rgba(0, 0, 0, 0.288) !important;
-  width: 76%;
+  width: 60%;
   height: 80vh;
   margin-top: 60px;
   border-radius: 3px;
 }
 
+///form///
 input {
   margin: 3px;
   background-color: rgba(255, 255, 255, 0.815);
@@ -218,6 +208,7 @@ input {
     border: groove #d5c395 1px;
   }
 }
+
 label {
   color: #d5c395;
   font-family: "Alfa Slab One", cursive;
@@ -265,6 +256,7 @@ textarea {
     text-shadow: 1px 1px 1px black;
   }
   h4 {
+    margin-top: 15px;
     color: white;
     text-decoration: overline;
   }
@@ -280,12 +272,15 @@ textarea {
   width: 100%;
   height: 300px;
   margin-top: 10px;
+  margin-left: 10px;
   margin-bottom: 5px;
+  
   border-radius: 5px;
   border: $brownL solid;
   box-shadow: 2px 2px 2px black;
 }
 
+// facebook twitter youtube insta ///
 .icon {
   color: #d5c395;
   margin-right: 4px;
@@ -295,20 +290,31 @@ textarea {
   }
 }
 
-.btnFooter {
-  background-color: $brownL;
-  color: white;
-  border-radius: 2px;
+/// btn Send ///
+.btn-footer{
+  margin-top: 30px;
+  
 }
 
+.social{
+  margin-top: 10px;
+}
 /////////mediaqueries////////////
+@media screen and (max-width : 272px){
+  h1{
+    display: none;
+  }
+}
+//LITTLE////
 @media screen and (max-width: 398px) {
   body {
     font-size: small;
   }
   h1 {
+    font-size: 20px !important;
+    .title{
     display: none;
-  }
+  }}
   h2 {
     font-size: 20px !important;
     color: $brownF !important;
@@ -323,14 +329,18 @@ textarea {
     width: 20vh;
     margin: 5px;
   }
+
+  .btn-footer{
+    width: 50px !important;
+  }
 }
 
-
+///BIG////////
 @media screen and (min-width: 1200px) {
-  h1{
+  h1 {
     font-size: 30px !important;
   }
-  h2{
+  h2 {
     font-size: 40px !important;
     margin-top: -40px !important;
   }
@@ -338,15 +348,15 @@ textarea {
     font-size: 35px;
   }
 
-  h4{
+  h4 {
     margin-top: 20px;
   }
 
-  p{
+  p {
     font-size: 20px;
     margin-top: 10px !important;
   }
-  .buttonEdit{
+  .buttonEdit {
     width: 100px;
     height: 50px;
     margin-top: 10px;
